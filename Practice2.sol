@@ -15,8 +15,6 @@ contract RemoveAndCopy {
 
     function getAnIndex(uint256 index) public view returns (uint256) {
         require(index < arr.length, "Index out of bound");
-
-        // }
         return arr[index];
     }
 
